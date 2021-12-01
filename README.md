@@ -26,4 +26,4 @@ mdRadio(
 - icon、文字选中高亮效果
 
 ### 临床案例
-[孟德中医实录](https://github.com/Hurdery/mdRadio)
+往上看
