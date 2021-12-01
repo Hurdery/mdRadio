@@ -1,16 +1,33 @@
 # md_radio
 
-A new Flutter application.
+一款可以实现单选自定义radio效果的小组件
 
-## Getting Started
+---
+highlight: androidstudio
+---
 
-This project is a starting point for a Flutter application.
+## 逃课椅子拆不，收米烤的：
 
-A few resources to get you started if this is your first Flutter project:
+![mdRadio.gif](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/71550498632341cebb010728de69d71f~tplv-k3u1fbpfcp-watermark.image?)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 服用方法
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+mdRadio(
+  rTitle:"孟德",
+  initialIndex: 0,
+  selectIndex: this.selectIndex,
+  callback: (value){
+    setState(() {
+      this.selectIndex = value;
+    });
+  },
+),
+```
+### 主治症状
+- 按钮单选
+- icon与文字方向、间距
+- icon、文字选中高亮效果
+
+### 临床案例
+[孟德中医实录](https://github.com/Hurdery/mdRadio)
